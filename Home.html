@@ -6,12 +6,18 @@
     <title>Home | Learn HTMX</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/Button.css" />
+    <link rel="stylesheet" href="./css/AboutPage.css" />
   </head>
 
   <body>
     <div class="container">
       <button hx-get="Pages/main.html" hx-swap="outerHTML">Open Page</button>
     </div>
+
+    <div class="wrapper">
+      <button hx-get="Pages/AboutMe.html" hx-swap="outerHTML">Click</button>
+    </div>
+
     <script src="https://unpkg.com/htmx.org@2.0.8"></script>
   </body>
 </html>
