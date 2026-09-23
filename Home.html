@@ -14,8 +14,14 @@
       <button hx-get="Pages/main.html" hx-swap="outerHTML">Open Page</button>
     </div>
 
-    <div class="wrapper">
-      <button hx-get="Pages/AboutMe.html" hx-swap="outerHTML">Click</button>
+    <div
+      class="wrapper"
+      hx-confirm:inherited="Are you Sure: "
+      hx-trigger="load"
+    >
+      <button hidden hx-get="Pages/AboutMe.html" hx-swap="outerHTML">
+        Click
+      </button>
     </div>
 
     <script src="https://unpkg.com/htmx.org@2.0.8"></script>
