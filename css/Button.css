@@ -1,0 +1,19 @@
+.container button {
+  position: relative;
+  margin: 0 auto;
+  top: 300px;
+  display: flex;
+  padding: 13px;
+  border: 2px solid orangered;
+  width: 350px;
+  border-radius: 10px;
+}
+
+span {
+  color: royalblue;
+  font-weight: 700;
+}
+
+.h2 {
+  display: block;
+}
